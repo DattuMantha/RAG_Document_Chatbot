@@ -1,0 +1,15 @@
+Retrieval Augmented Generation, commonly called RAG,
+combines information retrieval with large language models.
+
+A RAG system first retrieves relevant information from
+an external knowledge source. The retrieved information
+is then provided to a language model as context.
+
+RAG can help reduce hallucinations because the model can
+base its answer on retrieved information.
+
+Vector databases are commonly used to store embeddings
+of document chunks and perform semantic similarity search.
+
+Chroma is a vector database that can be used to store
+and retrieve document embeddings.
